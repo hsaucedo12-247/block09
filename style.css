@@ -1,0 +1,161 @@
+.logo{
+    color:  rgb(15, 59, 87);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+nav{
+    background:rgb(145, 163, 182) ;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 0 0 12px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+nav ul{
+  
+    margin: 10px;
+    
+}
+
+nav ul li a{
+    color:  rgb(15, 59, 87);
+    font-size: 20px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px ;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 60px;
+
+}
+
+a.active,a:hover{
+    background: lightslategrey ;
+    transition: 1s;
+}
+
+body{
+    background-color: rgb(140, 140, 148);
+    box-shadow: 0 0 12px black;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+
+
+main{
+    width:950px;
+    height: fit-content;
+    padding: 85px 24px 96px;
+    font-size: 25px;
+    color: rgb(15, 59, 87);
+}
+
+html{
+    background: rgb(140, 136, 151);
+}
+
+img{
+    margin-top: 30px;
+    float: right;
+ 
+}
+
+.img1{
+    margin: 0 0 15px 15px;
+}
+
+.img2{
+    float:left;
+    margin: 0 15px 15px 0;
+ 
+}
+
+.img3{
+    margin: 0 0 15px 15px;
+}
+
+.img4{
+    margin: 0;
+}
+
+.quote{
+    margin-top: 190px;
+    text-align: center;
+
+}
+
+.name{
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+footer{
+    background:rgb(145, 163, 182) ;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 0 0 12px black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    
+}
+
+h4{
+    text-align: center;
+    
+}
+
+h3{
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: heavy;
+    text-align: center;
+    
+}
+
+.p1 p{
+    font-size: 20px;
+}
+
+.p1{
+    padding: 10px;
+    border-bottom: 3px solid ; 
+    margin: 10px;
+
+}
+
+.h2{
+    font-weight: lighter;
+    padding: 10px;
+    border-bottom: 3px solid ;
+    margin-bottom: 0px;
+
+}
+
+.p2{
+    text-align: center;
+}
